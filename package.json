@@ -1,0 +1,33 @@
+{
+  "name": "cardano-wallet-example-usage",
+  "version": "0.1.0",
+  "description": "example on how to use the cardano-wallet",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --config webpack.config.js",
+    "start": "webpack-dev-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/primetype/cardano-wallet-example-js"
+  },
+  "keywords": [
+    "webassembly",
+    "wasm",
+    "rust",
+    "webpack"
+  ],
+  "author": "Ashley Williams <ashley666ashley@gmail.com>",
+  "license": "(MIT OR Apache-2.0)",
+  "bugs": {
+    "url": "https://github.com/rustwasm/create-wasm-app/issues"
+  },
+  "homepage": "https://github.com/rustwasm/create-wasm-app#readme",
+  "devDependencies": {
+    "cardano-wallet": "^0.2.0",
+    "webpack": "^4.16.3",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.5",
+    "copy-webpack-plugin": "^4.5.2"
+  }
+}
